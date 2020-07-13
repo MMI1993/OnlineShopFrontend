@@ -4,10 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ProductListComponent } from './product-list/product-list.component';
+import { HomeComponent } from './home/home.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProductListComponent,
+    HomeComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
